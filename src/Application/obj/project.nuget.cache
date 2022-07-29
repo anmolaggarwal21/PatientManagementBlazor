@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Xk3N7wP54LJEyxCvP7GTML6KtpAmzeAD3Cym/ZqCluDizq0R7JZmc3FnoYtXLYqQAscRJXLqv1M+gcvUUMbKHg==",
+  "dgSpecHash": "D0YZ1trE+gzA02A8AlQLyZ5V8LZZz4xmAhTO/CPzgn1D3EQ9kyyDPWrB5T+eYZP6O/fejdzWGvxdl5b5JG4Y5g==",
   "success": true,
-  "projectFilePath": "D:\\Repositories\\WarehouseManger\\src\\Application\\Application.csproj",
+  "projectFilePath": "D:\\Repositories\\WarehouseManger\\PatientManagementBlazor\\src\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anmol Aggarwal\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Anmol Aggarwal\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

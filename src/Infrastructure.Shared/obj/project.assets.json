@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "AutoMapper/10.1.1": {
         "type": "package",
         "dependencies": {
@@ -465,7 +465,7 @@
       },
       "WarehouseManger.Application/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "10.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
@@ -489,7 +489,7 @@
       },
       "WarehouseManger.Domain/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
           "bin/placeholder/WarehouseManger.Domain.dll": {}
         },
@@ -499,7 +499,7 @@
       },
       "WarehouseManger.Shared/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.Extensions.Identity.Stores": "5.0.7",
           "Microsoft.Extensions.Localization.Abstractions": "5.0.7"
@@ -1674,7 +1674,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "MailKit >= 2.13.0",
       "MimeKit >= 2.13.0",
       "WarehouseManger.Application >= 1.0.0"
@@ -1686,29 +1686,29 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repositories\\WarehouseManger\\src\\Infrastructure.Shared\\Infrastructure.Shared.csproj",
+      "projectUniqueName": "D:\\Repositories\\WarehouseManger\\PatientManagementBlazor\\src\\Infrastructure.Shared\\Infrastructure.Shared.csproj",
       "projectName": "WarehouseManger.Infrastructure.Shared",
-      "projectPath": "D:\\Repositories\\WarehouseManger\\src\\Infrastructure.Shared\\Infrastructure.Shared.csproj",
+      "projectPath": "D:\\Repositories\\WarehouseManger\\PatientManagementBlazor\\src\\Infrastructure.Shared\\Infrastructure.Shared.csproj",
       "packagesPath": "C:\\Users\\Anmol Aggarwal\\.nuget\\packages\\",
-      "outputPath": "D:\\Repositories\\WarehouseManger\\src\\Infrastructure.Shared\\obj\\",
+      "outputPath": "D:\\Repositories\\WarehouseManger\\PatientManagementBlazor\\src\\Infrastructure.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Anmol Aggarwal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Repositories\\WarehouseManger\\src\\Application\\Application.csproj": {
-              "projectPath": "D:\\Repositories\\WarehouseManger\\src\\Application\\Application.csproj"
+            "D:\\Repositories\\WarehouseManger\\PatientManagementBlazor\\src\\Application\\Application.csproj": {
+              "projectPath": "D:\\Repositories\\WarehouseManger\\PatientManagementBlazor\\src\\Application\\Application.csproj"
             }
           }
         }
@@ -1720,8 +1720,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "MailKit": {
             "target": "Package",

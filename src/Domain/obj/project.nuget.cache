@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+7JKWA6V9k2bqoYoy3eskJ8yhOl4rjiCXZW7LBC67LtEdzjoIqKrzjFrnm2t+jVzUN0aHoO09UNNxZUnawYUvQ==",
+  "dgSpecHash": "jGWsTHsl91noPvABKrqd5MuVn8msSToXM0lxfjLiqJurLlClFJm51SV3bKcm44eW7JTD+BdtC2ee13c1YugXZw==",
   "success": true,
-  "projectFilePath": "D:\\Repositories\\WarehouseManger\\src\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\Repositories\\WarehouseManger\\PatientManagementBlazor\\src\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

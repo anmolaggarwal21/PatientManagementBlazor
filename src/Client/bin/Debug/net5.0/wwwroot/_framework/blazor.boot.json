@@ -251,21 +251,21 @@
       "mscorlib.dll": "sha256-RvlJgNNOrNqPypkseRqbe69kNd7hnKW0u6Bmt1305d4=",
       "netstandard.dll": "sha256-Ttq9E+RchoLMvC6pS8ktXuaz1r51vG7wSm1emPBPRrk=",
       "System.Private.CoreLib.dll": "sha256-7y7hjQvy9SAXBmGIcqlrFwPQioCDSax5WwjUDJYfRAk=",
-      "WarehouseManger.Application.dll": "sha256-5pJ7QHAOilPyw5lQe\/fWoqkxgppdC5AF7wqPrGvTRFs=",
-      "WarehouseManger.Client.Infrastructure.dll": "sha256-23glB300NGliQbmt4F6ftfUJuEnzpXSJTWZM9nZlIWo=",
-      "WarehouseManger.Domain.dll": "sha256-5sitMob2yr0re9RyZ6xgrOBVxlnYA58W+mjxY9wXUk8=",
-      "WarehouseManger.Shared.dll": "sha256-CmZfkcqAdPPs0WiyRP5dfdrZaahhGRNFZX4I3V8GU0c=",
-      "WarehouseManger.Client.dll": "sha256-4+wlUkvH5qzWysgtXAvTi\/z1XW7NC4CgOz1AwJsHj4Y="
+      "WarehouseManger.Application.dll": "sha256-qTEose7fyhl4sxiZbjN1l0vsUJJYP7Z07KvQR2Y7iCo=",
+      "WarehouseManger.Client.Infrastructure.dll": "sha256-sF8p8bKZtrml5x2zDhansTa+SJR+6eAdItbTv5GjPxc=",
+      "WarehouseManger.Domain.dll": "sha256-jIyOuM3gYYqpG5Rtul6zMq1qaS86qarvFZfPRme6iw0=",
+      "WarehouseManger.Shared.dll": "sha256-NipqbjRAbhREFt997XmSSkkwz3EdHPmqTDZRm+EAX8M=",
+      "WarehouseManger.Client.dll": "sha256-FrXpJt3a9VOB\/l\/snwrBGglfAJ6fwjPj+RU3A1E9f4g="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "WarehouseManger.Client.Infrastructure.pdb": "sha256-PFnvG\/0Orq4PfsS3JTaW0GkYC7LnKKP7WiOBvf+z0rM=",
-      "WarehouseManger.Shared.pdb": "sha256-wLgqTJiM634SXKXiyEr4opCJmmzVHP10lOMHtXcDJrY=",
-      "WarehouseManger.Application.pdb": "sha256-PK2Kw8K3FSL9JzOuqnTqn9apTgu7x4Bg3st2NEhGVO4=",
-      "WarehouseManger.Domain.pdb": "sha256-3e4Oq\/GtrEca98rfX82WW0gnVj\/lGXGdeJzlmU7UBE4=",
-      "WarehouseManger.Client.pdb": "sha256-KfHYMIT0pw+SMnUW5l2cLVJql1Tf5hDmnTIz4mXIVHU="
+      "WarehouseManger.Client.Infrastructure.pdb": "sha256-uxaQHlNWy5lrj6QLVj3hHfcycGAzXmDC+aQYBvlypCk=",
+      "WarehouseManger.Shared.pdb": "sha256-d9vs8iz0Kxf5wfSVs0LBasdaCYyPEJaKSwUe9Ha0j2I=",
+      "WarehouseManger.Application.pdb": "sha256-whP2UjwCY5b5ueZaZIcGVjsaGtwigIuIcLsppFeSzqs=",
+      "WarehouseManger.Domain.pdb": "sha256-NazMg\/W\/HRJVqN2IR0fvgBZzFs5IUcEI2q2ctAtT7dI=",
+      "WarehouseManger.Client.pdb": "sha256-83a0\/rABgCo+hX0W6AvwJcCGpch76IpoVWJk4WNdaTs="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-jWuZI+z9wt0OfCMj+W5wh3HN+Ye6efC6YfCUWbBHBa8=",
@@ -278,43 +278,43 @@
     },
     "satelliteResources": {
       "de": {
-        "de\/WarehouseManger.Client.resources.dll": "sha256-bjZpODuCB7PApE5sY3GD\/yvNqjn0uArONTLVj10dCg0=",
-        "de\/WarehouseManger.Application.resources.dll": "sha256-wxTZKkFooLTIx+1HTQ4EjJ2vfj4vs5g+4xzH1jdu4EU="
+        "de\/WarehouseManger.Client.resources.dll": "sha256-H4F0v+9JRPltZz10ye6cE6NDsCM3F8t+0KTyaf2HMk0=",
+        "de\/WarehouseManger.Application.resources.dll": "sha256-YiKAuyCsi6BWqe5orzPOLHeD1Q8usWGIE6ZEdyo\/zZY="
       },
       "en": {
-        "en\/WarehouseManger.Client.resources.dll": "sha256-mVdew8zQ83kq3mEEU0bYWdmwXD59DNltecRWc0LYWLU=",
-        "en\/WarehouseManger.Client.Infrastructure.resources.dll": "sha256-LAYXQa5Lbi7LsYhz7YDkCVrWcs+AeHs2Px16bboA5pE=",
-        "en\/WarehouseManger.Application.resources.dll": "sha256-Qol8yFwweei4swMSW0aJRrsgKvd7xoPvRHp+6ko5kWM="
+        "en\/WarehouseManger.Client.resources.dll": "sha256-IZV560ifExJX1XflBB84qY58+uU5JwgzOuJbafjqLlM=",
+        "en\/WarehouseManger.Client.Infrastructure.resources.dll": "sha256-pw+jCDzJcTwk5II+1jKd+7yShQMORiyljZBbWcNpa70=",
+        "en\/WarehouseManger.Application.resources.dll": "sha256-GtZKIe5hY9kyC\/wkB58PgmTOkh+r2op9bJxqCRXw9Qg="
       },
       "es": {
-        "es\/WarehouseManger.Client.resources.dll": "sha256-SPG3dY5i9MJI5xS0isLsWQ0ubnTIXwcYz\/2EldWqaB8=",
-        "es\/WarehouseManger.Application.resources.dll": "sha256-+gpV63eYx4VJqo0pwbzIVH0H0IdpOUyieihXqa9S62U="
+        "es\/WarehouseManger.Client.resources.dll": "sha256-zi\/eRHbAs9nBHTW9ciX3QzkAkdouZe+G2b9flHJ+BDQ=",
+        "es\/WarehouseManger.Application.resources.dll": "sha256-DI3tGRPigvjxJvvNvMKb3L14YnhhWCTOzTiWC8VEy28="
       },
       "id": {
-        "id\/WarehouseManger.Client.resources.dll": "sha256-UMQ1ahCfdrUdeSToDh0zOqBUqMtUHicCDPViUUm2XAU=",
-        "id\/WarehouseManger.Application.resources.dll": "sha256-3uJ6\/9\/IfpLOPW8MOwhshF3KwbvmWFEyQlgDUOGfxCI="
+        "id\/WarehouseManger.Client.resources.dll": "sha256-eL2yq8Q5nkFtOXbJjW1Kqn8B3onmfiBfWaJ08PG3p\/M=",
+        "id\/WarehouseManger.Application.resources.dll": "sha256-EoChq0ysVp4YkQdTNog9SQ91durmz+J5++1x35H\/TTU="
       },
       "it": {
-        "it\/WarehouseManger.Client.resources.dll": "sha256-D\/LrC48TXgVOj6y0UPjIwU3BHlqMbKaMZ9BmzkecC2k=",
-        "it\/WarehouseManger.Application.resources.dll": "sha256-txQmZSrlm\/i51GoYrH9v7JuOwt8qxe0TAXLBA3jYSoU="
+        "it\/WarehouseManger.Client.resources.dll": "sha256-O7PcG1aqI7wgcwUfSSA2H96DG7qc1K+5dH8+Dh25\/zY=",
+        "it\/WarehouseManger.Application.resources.dll": "sha256-Q09AQ+aJhLdl2sD4caNKrv76l6Icgnir2K2N+vXpC7w="
       },
       "km": {
-        "km\/WarehouseManger.Client.resources.dll": "sha256-vkeTAWCQ3aATPmKK8mziY5KNNAr6Oa9QriEi6pfkgJU=",
-        "km\/WarehouseManger.Client.Infrastructure.resources.dll": "sha256-0zraIXkuvp+rbRBFY3IdXPe4yS3bkl7G2b7XaeLgsTA=",
-        "km\/WarehouseManger.Application.resources.dll": "sha256-MlgH2edqBsTPyrh+Cg4Pw7oDRZLL6uRnc2d5HmZET20="
+        "km\/WarehouseManger.Client.resources.dll": "sha256-s\/UOH\/P7odnpdd2BlM2ePaC+Xat53byYPW3kU0EhAf0=",
+        "km\/WarehouseManger.Client.Infrastructure.resources.dll": "sha256-L3b91lLXSUkIOkxOwWGDt9294CZxH0h9zyDCRVoudt4=",
+        "km\/WarehouseManger.Application.resources.dll": "sha256-HQSaD+8ZivWuoXpoTjnPD+OYiB2APb\/kKM2Qwy8lJao="
       },
       "ru": {
-        "ru\/WarehouseManger.Client.resources.dll": "sha256-5ptF8TP9dfg3ZQw3jdXqT7YkXANrmXT1yVxfDueohj0=",
-        "ru\/WarehouseManger.Client.Infrastructure.resources.dll": "sha256-sGS70HzpSyRR2ci4dXaIuF2T\/5+ugB5n5qZQ+Weq4tU=",
-        "ru\/WarehouseManger.Application.resources.dll": "sha256-tOMGv\/K0NS9q5nbOmJkt0eOJ2UyqUdcViAK\/mKeSntg="
+        "ru\/WarehouseManger.Client.resources.dll": "sha256-mWApfRPicU9xrOAp95TxXVaNiLKXz63ze5S3Je1s2KY=",
+        "ru\/WarehouseManger.Client.Infrastructure.resources.dll": "sha256-tNrFFl1LEWLyMS1nKiJqZ+WQfUUovWu\/R2u\/97o97iE=",
+        "ru\/WarehouseManger.Application.resources.dll": "sha256-RZv7tKYQoC\/GaY90LSCksJo+fuziSz3OxOjVxmzehK0="
       },
       "sv": {
-        "sv\/WarehouseManger.Client.resources.dll": "sha256-lrFVPj81T4xFo0egi1tD5+aEfjjOcpPsScMc6kyaRpw=",
-        "sv\/WarehouseManger.Application.resources.dll": "sha256-jlc828tpxrJQ5UfgfPlPyH0LI0ekrWrnK\/8g2\/GKtT0="
+        "sv\/WarehouseManger.Client.resources.dll": "sha256-25+3AtzVREavFjLcmFhynUjJ1oaxNwogxILgjDr6m9c=",
+        "sv\/WarehouseManger.Application.resources.dll": "sha256-HmCPHyXOjIP\/ByxHK5L2NydnEYNct9OqOZW6hyystQQ="
       },
       "fr": {
-        "fr\/WarehouseManger.Client.resources.dll": "sha256-bjhONlpD\/2uD8M9gv4eRdei9X3vaxRaaA524OsBbPrU=",
-        "fr\/WarehouseManger.Application.resources.dll": "sha256-RoGD04mB5QbIE35Z+S42GFwzvNs6BpIRsCm\/kw2xECY="
+        "fr\/WarehouseManger.Client.resources.dll": "sha256-EYNpXRwyQSUzUnzc\/ojqNQd+lOZ4W1NSTLjGStXbcGU=",
+        "fr\/WarehouseManger.Application.resources.dll": "sha256-lunCEuJlziaNLumjxdedBenscCtUoYoqm271d39PcBY="
       }
     }
   }

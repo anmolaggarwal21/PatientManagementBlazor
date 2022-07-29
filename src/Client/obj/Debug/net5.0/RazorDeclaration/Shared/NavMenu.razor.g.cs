@@ -13,280 +13,280 @@ namespace WarehouseManger.Client.Shared
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 2 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 2 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 3 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 4 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 5 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 6 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 7 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 8 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 9 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 10 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 11 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 12 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 12 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 13 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 13 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using MudBlazor;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 14 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 14 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using Blazored.LocalStorage;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 15 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 15 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using Blazored.FluentValidation;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 18 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 18 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Client.Infrastructure.Managers.Identity.Account;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 19 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 19 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Client.Infrastructure.Managers.Identity.Authentication;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 20 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 20 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Client.Infrastructure.Managers.Identity.Roles;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 21 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 21 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Client.Infrastructure.Managers.Identity.RoleClaims;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 22 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 22 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Client.Infrastructure.Managers.Identity.Users;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 23 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 23 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Client.Infrastructure.Managers.Preferences;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 24 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 24 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Client.Infrastructure.Managers.Interceptors;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 25 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 25 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Client.Infrastructure.Managers.Catalog.Product;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 26 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 26 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Client.Infrastructure.Managers.Catalog.Brand;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 27 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 27 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Client.Infrastructure.Managers.Dashboard;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 28 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 28 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Client.Infrastructure.Managers.Communication;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 29 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 29 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Client.Infrastructure.Managers.Audit;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 30 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 30 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Client.Infrastructure.Managers.Misc.Document;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 31 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 31 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Client.Infrastructure.Managers.Misc.DocumentType;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 34 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 34 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Shared.Constants.Permission;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 35 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 35 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Client.Shared.Components;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 37 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 37 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 38 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 38 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Client.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 39 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 39 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Client.Shared.Dialogs;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 40 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 40 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Client.Infrastructure.Settings;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 42 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 42 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Application.Requests.Identity;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 44 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 44 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Client.Pages.Authentication;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 46 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 46 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Client.Infrastructure.Authentication;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 47 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 47 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 using WarehouseManger.Client.Extensions;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "D:\Repositories\WarehouseManger\src\Client\Shared\NavMenu.razor"
+#line 2 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\Shared\NavMenu.razor"
 using System.Security.Claims;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 49 "D:\Repositories\WarehouseManger\src\Client\_Imports.razor"
+#line 49 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\_Imports.razor"
 [Authorize]
 
 #line default
@@ -300,7 +300,7 @@ using System.Security.Claims;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 105 "D:\Repositories\WarehouseManger\src\Client\Shared\NavMenu.razor"
+#line 105 "D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\Shared\NavMenu.razor"
        
     private ClaimsPrincipal _authenticationStateProviderUser;
 

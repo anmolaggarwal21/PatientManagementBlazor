@@ -1,5 +1,5 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="D:\Repositories\WarehouseManger\src\Client\bin\Debug\net5.0\wwwroot\" />
-  <ContentRoot BasePath="/" Path="D:\Repositories\WarehouseManger\src\Client\wwwroot\" />
+  <ContentRoot BasePath="/" Path="D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\wwwroot\" />
   <ContentRoot BasePath="_content/MudBlazor" Path="C:\Users\Anmol Aggarwal\.nuget\packages\mudblazor\5.0.14\build\..\staticwebassets\" />
 </StaticWebAssets>

@@ -10,3 +10,15 @@ D:\Repositories\WarehouseManger\src\Shared\obj\Debug\net6.0\WarehouseManger.Shar
 D:\Repositories\WarehouseManger\src\Shared\obj\Debug\net6.0\refint\WarehouseManger.Shared.dll
 D:\Repositories\WarehouseManger\src\Shared\obj\Debug\net6.0\WarehouseManger.Shared.pdb
 D:\Repositories\WarehouseManger\src\Shared\obj\Debug\net6.0\ref\WarehouseManger.Shared.dll
+D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Shared\bin\Debug\net6.0\WarehouseManger.Shared.deps.json
+D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Shared\bin\Debug\net6.0\WarehouseManger.Shared.dll
+D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Shared\bin\Debug\net6.0\WarehouseManger.Shared.pdb
+D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Shared\obj\Debug\net6.0\Shared.csproj.AssemblyReference.cache
+D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Shared\obj\Debug\net6.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Shared\obj\Debug\net6.0\Shared.AssemblyInfoInputs.cache
+D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Shared\obj\Debug\net6.0\Shared.AssemblyInfo.cs
+D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Shared\obj\Debug\net6.0\Shared.csproj.CoreCompileInputs.cache
+D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Shared\obj\Debug\net6.0\WarehouseManger.Shared.dll
+D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Shared\obj\Debug\net6.0\refint\WarehouseManger.Shared.dll
+D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Shared\obj\Debug\net6.0\WarehouseManger.Shared.pdb
+D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Shared\obj\Debug\net6.0\ref\WarehouseManger.Shared.dll

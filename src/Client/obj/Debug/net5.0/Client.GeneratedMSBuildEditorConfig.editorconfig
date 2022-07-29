@@ -10,4 +10,4 @@ build_property.EnableSingleFileAnalyzer =
 build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = WarehouseManger.Client
-build_property.ProjectDir = D:\Repositories\WarehouseManger\src\Client\
+build_property.ProjectDir = D:\Repositories\WarehouseManger\PatientManagementBlazor\src\Client\
