@@ -1,0 +1,57 @@
+﻿@using WarehouseManger.Client.Pages.Catalog
+@inject Microsoft.Extensions.Localization.IStringLocalizer<AddEditBrandModal> _localizer
+
+<EditForm Model="@AddEditDoctorDetailsModel" OnValidSubmit="SaveAsync">
+    <FluentValidationValidator @ref="_fluentValidationValidator" />
+    <MudDialog>
+        <TitleContent>
+            @{
+                if (AddEditDoctorDetailsModel.Id == 0)
+                {
+                    <MudText Typo="Typo.h6">
+                        <MudIcon Icon="@Icons.Material.Filled.Add" Class="mr-3 mb-n1" />
+                        Add Doctor Details
+                    </MudText>
+                }
+                else
+                {
+                    <MudText Typo="Typo.h6">
+                        <MudIcon Icon="@Icons.Material.Filled.Update" Class="mr-3 mb-n1" />
+                       Update Doctor Details
+                    </MudText>
+                }
+            }
+        </TitleContent>
+        <DialogContent>
+            <MudGrid>
+                @if (AddEditDoctorDetailsModel.Id != 0)
+                {
+                    <MudItem xs="12" md="6">
+                        <MudTextField Disabled For="@(() => AddEditDoctorDetailsModel.Id)" @bind-Value="AddEditDoctorDetailsModel.Id" Label="@_localizer["Id"]" />
+                    </MudItem>
+                }
+                <MudItem xs="12" md="6">
+                    <MudTextField T="string" For="@(() => AddEditDoctorDetailsModel.DoctorName)" @bind-Value="AddEditDoctorDetailsModel.DoctorName" Label="Doctor Name" />
+                </MudItem>
+                <MudItem xs="12" md="6">
+                    <MudTextField For="@(() => AddEditDoctorDetailsModel.Department)" @bind-Value="AddEditDoctorDetailsModel.Department" Label="Department" />
+                </MudItem>
+                <MudItem xs="12" md="6"> 
+                     <MudDatePicker Label="Date Of Birth"  @bind-Date="AddEditDoctorDetailsModel.DateOfBirth" Editable="true" For="@(() => AddEditDoctorDetailsModel.DateOfBirth)"/>
+                   
+                </MudItem>
+            </MudGrid>
+        </DialogContent>
+        <DialogActions>
+            <MudButton DisableElevation Variant="Variant.Filled" OnClick="Cancel">@_localizer["Cancel"]</MudButton>
+            @if (AddEditDoctorDetailsModel.Id != 0)
+            {
+                <MudButton DisableElevation Variant="Variant.Filled" ButtonType="ButtonType.Submit" Disabled="@(!Validated)" Color="Color.Secondary">@_localizer["Update"]</MudButton>
+            }
+            else
+            {
+                <MudButton DisableElevation Variant="Variant.Filled" ButtonType="ButtonType.Submit" Disabled="@(!Validated)" Color="Color.Success">@_localizer["Save"]</MudButton>
+            }
+        </DialogActions>
+    </MudDialog>
+</EditForm>

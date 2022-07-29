@@ -1,0 +1,83 @@
+﻿
+@using WarehouseManger.Domain.Enums
+
+<EditForm Model="@AddEditPatientModel" OnValidSubmit="SaveAsync">
+    <FluentValidationValidator @ref="_fluentValidationValidator" />
+    <MudDialog>
+        <TitleContent>
+            @{
+                if (AddEditPatientModel.Id == 0)
+                {
+                    <MudText Typo="Typo.h6">
+                        <MudIcon Icon="@Icons.Material.Filled.Add" Class="mr-3 mb-n1" />
+                        Add Patient
+                    </MudText>
+                }
+                else
+                {
+                    <MudText Typo="Typo.h6">
+                        <MudIcon Icon="@Icons.Material.Filled.Update" Class="mr-3 mb-n1" />
+                       Update Patient
+                    </MudText>
+                }
+            }
+        </TitleContent>
+        <DialogContent>
+            <MudGrid>
+                @if (AddEditPatientModel.Id != 0)
+                {
+                    <MudItem xs="12" md="6">
+                        <MudTextField Disabled For="@(() => AddEditPatientModel.Id)" @bind-Value="AddEditPatientModel.Id" Label="Id" />
+                    </MudItem>
+                    <MudItem xs="12" md="6">
+                        <MudTextField Disabled For="@(() => AddEditPatientModel.OPDId)" @bind-Value="AddEditPatientModel.OPDId" Label="OPD Id" />
+                    </MudItem>
+                    
+                }
+                <MudItem xs="12" md="6">
+                    <MudTextField For="@(() => AddEditPatientModel.FirstName)" @bind-Value="AddEditPatientModel.FirstName" Label="First Name" />
+                </MudItem>
+                <MudItem xs="12" md="6">
+                    <MudTextField For="@(() => AddEditPatientModel.LastName)" @bind-Value="AddEditPatientModel.LastName" Label="Last Name" />
+                </MudItem>
+                <MudItem xs="12" md="6">
+                    <MudTextField For="@(() => AddEditPatientModel.EmailAddress)" @bind-Value="AddEditPatientModel.EmailAddress" Label="Email Address" />
+                </MudItem>
+                <MudItem xs="12" md="6">
+                        <MudTextField For="@(() => AddEditPatientModel.Address)" @bind-Value="AddEditPatientModel.Address" Label="Address" />
+                </MudItem>
+                <MudItem xs="12" md="6">
+                    <MudSelect @bind-Value="AddEditPatientModel.Gender" Label="Select Gender"   AdornmentColor="Color.Secondary">
+                        @foreach (Gender item in Enum.GetValues(typeof(Gender)))
+                        {
+                            <MudSelectItem Value="@item">@item</MudSelectItem>
+                        }
+                    </MudSelect>
+                       
+                </MudItem>
+                   
+                <MudItem xs="12" md="6"> 
+                     <MudDatePicker Label="Date Of Birth"  @bind-Date="AddEditPatientModel.DateOfBirth" Editable="true" For="@(() => AddEditPatientModel.DateOfBirth)"/>
+                   
+                </MudItem>
+                <MudItem xs="12" md="6">
+                    <MudNumericField   For="@(() => AddEditPatientModel.PhoneNumber)" HideSpinButtons="true" @bind-Value="AddEditPatientModel.PhoneNumber" Label="Phone Number" Variant="Variant.Text" Min="1000000000" Max="9999999999" />
+                    
+                </MudItem>
+                
+                
+            </MudGrid>
+        </DialogContent>
+        <DialogActions>
+            <MudButton DisableElevation Variant="Variant.Filled" OnClick="Cancel">Cancel</MudButton>
+            @if (AddEditPatientModel.Id != 0)
+            {
+                <MudButton DisableElevation Variant="Variant.Filled" ButtonType="ButtonType.Submit" Disabled="@(!Validated)" Color="Color.Secondary"> Update</MudButton>
+            }
+            else
+            {
+                <MudButton DisableElevation Variant="Variant.Filled" ButtonType="ButtonType.Submit" Disabled="@(!Validated)" Color="Color.Success"> Save</MudButton>
+            }
+        </DialogActions>
+    </MudDialog>
+</EditForm>

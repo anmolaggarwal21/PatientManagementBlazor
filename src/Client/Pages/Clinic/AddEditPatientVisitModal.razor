@@ -1,0 +1,92 @@
+﻿
+@using WarehouseManger.Domain.Enums
+
+<EditForm Model="@AddEditPatientVisitModel" OnValidSubmit="SaveAsync">
+    <FluentValidationValidator @ref="_fluentValidationValidator" />
+    <MudDialog>
+        <TitleContent>
+            @{
+                if (AddEditPatientVisitModel.Id == 0)
+                {
+                    <MudText Typo="Typo.h6">
+                        <MudIcon Icon="@Icons.Material.Filled.Add" Class="mr-3 mb-n1" />
+                        Add Patient Visit
+                    </MudText>
+                }
+                else
+                {
+                    <MudText Typo="Typo.h6">
+                        <MudIcon Icon="@Icons.Material.Filled.Update" Class="mr-3 mb-n1" />
+                       Update Patient Visit
+                    </MudText>
+                }
+            }
+        </TitleContent>
+        <DialogContent>
+            <MudGrid>
+                @if (AddEditPatientVisitModel.Id != 0)
+                {
+                    <MudItem xs="12" md="6">
+                        <MudTextField Disabled For="@(() => AddEditPatientVisitModel.Id)" @bind-Value="AddEditPatientVisitModel.Id" Label="Id" />
+                    </MudItem>
+                    <MudItem xs="12" md="6">
+                        <MudTextField Disabled For="@(() => AddEditPatientVisitModel.PatientVisitId)" @bind-Value="AddEditPatientVisitModel.PatientVisitId" Label="Patient Visit Id" />
+                    </MudItem>
+                    
+                }
+                <MudItem xs="12" md="6">
+                    <MudNumericField   For="@(() => AddEditPatientVisitModel.Amount)" HideSpinButtons="true" @bind-Value="AddEditPatientVisitModel.Amount" Label="Amount" Variant="Variant.Text" Min="0" Max="9999999999" />
+                    
+                </MudItem>
+
+                <MudItem xs="12" md="6">
+                    <MudTextField For="@(() => AddEditPatientVisitModel.Treatment)" @bind-Value="AddEditPatientVisitModel.Treatment" Label="Treatment" />
+                </MudItem>
+
+                
+                <MudItem xs="12" md="6">
+                    <MudSelect @bind-Value="AddEditPatientVisitModel.admission" Label="Select Admission"   AdornmentColor="Color.Secondary">
+                        @foreach (AdmissionType item in Enum.GetValues(typeof(AdmissionType)))
+                        {
+                            <MudSelectItem Value="@item">@item</MudSelectItem>
+                        }
+                    </MudSelect>
+                       
+                </MudItem>
+
+                 <MudItem xs="12" md="6">
+                    <MudSelect @bind-Value="AddEditPatientVisitModel.PaymentType" Label="Select Payment Type"   AdornmentColor="Color.Secondary">
+                        @foreach (PaymentType item in Enum.GetValues(typeof(PaymentType)))
+                        {
+                            <MudSelectItem Value="@item">@item</MudSelectItem>
+                        }
+                    </MudSelect>
+                       
+                </MudItem>
+                   
+                <MudItem xs="12" md="6"> 
+                     <MudDatePicker Label="Date Of Birth"  @bind-Date="AddEditPatientVisitModel.DateOfVisit" Editable="true" For="@(() => AddEditPatientVisitModel.DateOfVisit)"/>
+                   
+                </MudItem>
+                <MudItem xs="12" md="6"> 
+                     <MudDatePicker Label="Date Of Birth"  @bind-Date="AddEditPatientVisitModel.DateOfDischarge" Editable="true" For="@(() => AddEditPatientVisitModel.DateOfDischarge)"/>
+                   
+                </MudItem>
+
+                
+                
+            </MudGrid>
+        </DialogContent>
+        <DialogActions>
+            <MudButton DisableElevation Variant="Variant.Filled" OnClick="Cancel">Cancel</MudButton>
+            @if (AddEditPatientVisitModel.Id != 0)
+            {
+                <MudButton DisableElevation Variant="Variant.Filled" ButtonType="ButtonType.Submit" Disabled="@(!Validated)" Color="Color.Secondary"> Update</MudButton>
+            }
+            else
+            {
+                <MudButton DisableElevation Variant="Variant.Filled" ButtonType="ButtonType.Submit" Disabled="@(!Validated)" Color="Color.Success"> Save</MudButton>
+            }
+        </DialogActions>
+    </MudDialog>
+</EditForm>

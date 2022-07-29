@@ -1,0 +1,148 @@
+2022-07-28 14:59:42.509 +05:30 [INF] Now listening on: https://localhost:5001
+2022-07-28 14:59:42.607 +05:30 [INF] Now listening on: http://localhost:5000
+2022-07-28 14:59:42.614 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-28 14:59:42.615 +05:30 [INF] Hosting environment: Development
+2022-07-28 14:59:42.615 +05:30 [INF] Content root path: D:\Repositories\WarehouseManger\src\Server
+2022-07-28 14:59:57.267 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at WarehouseManger.Server.Middlewares.ErrorHandlerMiddleware.Invoke(HttpContext context) in D:\Repositories\WarehouseManger\src\Server\Middlewares\ErrorHandlerMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-28 14:59:57.268 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at WarehouseManger.Server.Middlewares.ErrorHandlerMiddleware.Invoke(HttpContext context) in D:\Repositories\WarehouseManger\src\Server\Middlewares\ErrorHandlerMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-28 14:59:58.849 +05:30 [ERR] Connection id "0HMJGFEPVQ3D2", Request id "0HMJGFEPVQ3D2:00000009": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at WarehouseManger.Server.Middlewares.ErrorHandlerMiddleware.Invoke(HttpContext context) in D:\Repositories\WarehouseManger\src\Server\Middlewares\ErrorHandlerMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapWhenMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-07-28 14:59:58.849 +05:30 [ERR] Connection id "0HMJGFEPVQ3D2", Request id "0HMJGFEPVQ3D2:0000000B": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at WarehouseManger.Server.Middlewares.ErrorHandlerMiddleware.Invoke(HttpContext context) in D:\Repositories\WarehouseManger\src\Server\Middlewares\ErrorHandlerMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapWhenMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-07-28 16:08:05.579 +05:30 [INF] Now listening on: https://localhost:5001
+2022-07-28 16:08:05.652 +05:30 [INF] Now listening on: http://localhost:5000
+2022-07-28 16:08:05.656 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-28 16:08:05.657 +05:30 [INF] Hosting environment: Development
+2022-07-28 16:08:05.658 +05:30 [INF] Content root path: D:\Repositories\WarehouseManger\src\Server
+2022-07-28 16:19:36.443 +05:30 [INF] Now listening on: https://localhost:5001
+2022-07-28 16:19:36.478 +05:30 [INF] Now listening on: http://localhost:5000
+2022-07-28 16:19:36.480 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-28 16:19:36.481 +05:30 [INF] Hosting environment: Development
+2022-07-28 16:19:36.481 +05:30 [INF] Content root path: D:\Repositories\WarehouseManger\src\Server
+2022-07-28 17:00:07.284 +05:30 [INF] Now listening on: https://localhost:5001
+2022-07-28 17:00:07.426 +05:30 [INF] Now listening on: http://localhost:5000
+2022-07-28 17:00:07.432 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-28 17:00:07.433 +05:30 [INF] Hosting environment: Development
+2022-07-28 17:00:07.433 +05:30 [INF] Content root path: D:\Repositories\WarehouseManger\src\Server
+2022-07-28 17:08:19.369 +05:30 [INF] Now listening on: https://localhost:5001
+2022-07-28 17:08:19.402 +05:30 [INF] Now listening on: http://localhost:5000
+2022-07-28 17:08:19.404 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-28 17:08:19.405 +05:30 [INF] Hosting environment: Development
+2022-07-28 17:08:19.405 +05:30 [INF] Content root path: D:\Repositories\WarehouseManger\src\Server
+2022-07-28 17:13:44.888 +05:30 [INF] Now listening on: https://localhost:5001
+2022-07-28 17:13:44.947 +05:30 [INF] Now listening on: http://localhost:5000
+2022-07-28 17:13:44.952 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-28 17:13:44.953 +05:30 [INF] Hosting environment: Development
+2022-07-28 17:13:44.954 +05:30 [INF] Content root path: D:\Repositories\WarehouseManger\src\Server
+2022-07-28 17:20:15.653 +05:30 [INF] Now listening on: https://localhost:5001
+2022-07-28 17:20:15.687 +05:30 [INF] Now listening on: http://localhost:5000
+2022-07-28 17:20:15.688 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-28 17:20:15.689 +05:30 [INF] Hosting environment: Development
+2022-07-28 17:20:15.689 +05:30 [INF] Content root path: D:\Repositories\WarehouseManger\src\Server
+2022-07-28 17:20:19.539 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at WarehouseManger.Server.Middlewares.ErrorHandlerMiddleware.Invoke(HttpContext context) in D:\Repositories\WarehouseManger\src\Server\Middlewares\ErrorHandlerMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-28 17:20:19.561 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at WarehouseManger.Server.Middlewares.ErrorHandlerMiddleware.Invoke(HttpContext context) in D:\Repositories\WarehouseManger\src\Server\Middlewares\ErrorHandlerMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-28 17:20:19.575 +05:30 [ERR] Connection id "0HMJGHTB8I5PJ", Request id "0HMJGHTB8I5PJ:0000003D": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at WarehouseManger.Server.Middlewares.ErrorHandlerMiddleware.Invoke(HttpContext context) in D:\Repositories\WarehouseManger\src\Server\Middlewares\ErrorHandlerMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapWhenMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-07-28 17:20:19.575 +05:30 [ERR] Connection id "0HMJGHTB8I5PJ", Request id "0HMJGHTB8I5PJ:0000003F": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at WarehouseManger.Server.Middlewares.ErrorHandlerMiddleware.Invoke(HttpContext context) in D:\Repositories\WarehouseManger\src\Server\Middlewares\ErrorHandlerMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapWhenMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-07-28 17:21:46.743 +05:30 [INF] Now listening on: https://localhost:5001
+2022-07-28 17:21:46.789 +05:30 [INF] Now listening on: http://localhost:5000
+2022-07-28 17:21:46.791 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-28 17:21:46.792 +05:30 [INF] Hosting environment: Development
+2022-07-28 17:21:46.792 +05:30 [INF] Content root path: D:\Repositories\WarehouseManger\src\Server
+2022-07-28 17:21:47.884 +05:30 [ERR] Connection id "0HMJGHU6A0FAS", Request id "0HMJGHU6A0FAS:0000000B": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Response Content-Length mismatch: too few bytes written (0 of 636416).
+2022-07-28 17:21:54.858 +05:30 [INF] Now listening on: https://localhost:5001
+2022-07-28 17:21:54.927 +05:30 [INF] Now listening on: http://localhost:5000
+2022-07-28 17:21:54.931 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-28 17:21:54.932 +05:30 [INF] Hosting environment: Development
+2022-07-28 17:21:54.934 +05:30 [INF] Content root path: D:\Repositories\WarehouseManger\src\Server
+2022-07-28 17:22:42.580 +05:30 [INF] Now listening on: https://localhost:5001
+2022-07-28 17:22:42.641 +05:30 [INF] Now listening on: http://localhost:5000
+2022-07-28 17:22:42.645 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-28 17:22:42.646 +05:30 [INF] Hosting environment: Development
+2022-07-28 17:22:42.647 +05:30 [INF] Content root path: D:\Repositories\WarehouseManger\src\Server
+2022-07-28 17:25:23.740 +05:30 [INF] Now listening on: https://localhost:5001
+2022-07-28 17:25:23.790 +05:30 [INF] Now listening on: http://localhost:5000
+2022-07-28 17:25:23.794 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-28 17:25:23.794 +05:30 [INF] Hosting environment: Development
+2022-07-28 17:25:23.795 +05:30 [INF] Content root path: D:\Repositories\WarehouseManger\src\Server
+2022-07-28 17:28:09.908 +05:30 [INF] Now listening on: https://localhost:5001
+2022-07-28 17:28:10.008 +05:30 [INF] Now listening on: http://localhost:5000
+2022-07-28 17:28:10.015 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-28 17:28:10.018 +05:30 [INF] Hosting environment: Development
+2022-07-28 17:28:10.019 +05:30 [INF] Content root path: D:\Repositories\WarehouseManger\src\Server
+2022-07-28 17:28:58.155 +05:30 [INF] Now listening on: https://localhost:5001
+2022-07-28 17:28:58.186 +05:30 [INF] Now listening on: http://localhost:5000
+2022-07-28 17:28:58.189 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-28 17:28:58.189 +05:30 [INF] Hosting environment: Development
+2022-07-28 17:28:58.190 +05:30 [INF] Content root path: D:\Repositories\WarehouseManger\src\Server
+2022-07-28 18:58:24.312 +05:30 [INF] Application is shutting down...

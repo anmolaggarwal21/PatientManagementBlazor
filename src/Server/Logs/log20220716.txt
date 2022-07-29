@@ -1,0 +1,29 @@
+2022-07-16 12:00:44.376 +05:30 [INF] Application is shutting down...
+2022-07-16 13:34:36.034 +05:30 [INF] Now listening on: https://localhost:5001
+2022-07-16 13:34:36.105 +05:30 [INF] Now listening on: http://localhost:5000
+2022-07-16 13:34:36.110 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-16 13:34:36.111 +05:30 [INF] Hosting environment: Development
+2022-07-16 13:34:36.112 +05:30 [INF] Content root path: D:\Repositories\WarehouseManger\src\Server
+2022-07-16 13:57:46.937 +05:30 [INF] Application is shutting down...
+2022-07-16 14:59:40.272 +05:30 [INF] Now listening on: https://localhost:5001
+2022-07-16 14:59:40.371 +05:30 [INF] Now listening on: http://localhost:5000
+2022-07-16 14:59:40.378 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-16 14:59:40.379 +05:30 [INF] Hosting environment: Development
+2022-07-16 14:59:40.381 +05:30 [INF] Content root path: D:\Repositories\WarehouseManger\src\Server
+2022-07-16 15:12:26.286 +05:30 [INF] Application is shutting down...
+2022-07-16 15:23:10.223 +05:30 [INF] Now listening on: https://localhost:5001
+2022-07-16 15:23:10.258 +05:30 [INF] Now listening on: http://localhost:5000
+2022-07-16 15:23:10.262 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-16 15:23:10.263 +05:30 [INF] Hosting environment: Development
+2022-07-16 15:23:10.264 +05:30 [INF] Content root path: D:\Repositories\WarehouseManger\src\Server
+2022-07-16 17:08:51.467 +05:30 [INF] Application is shutting down...
+2022-07-16 17:15:54.636 +05:30 [INF] Now listening on: https://localhost:5001
+2022-07-16 17:15:54.978 +05:30 [INF] Now listening on: http://localhost:5000
+2022-07-16 17:15:55.048 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-16 17:15:55.049 +05:30 [INF] Hosting environment: Development
+2022-07-16 17:15:55.049 +05:30 [INF] Content root path: D:\Repositories\WarehouseManger\src\Server
+2022-07-16 19:32:37.722 +05:30 [INF] Now listening on: https://localhost:5001
+2022-07-16 19:32:37.772 +05:30 [INF] Now listening on: http://localhost:5000
+2022-07-16 19:32:37.777 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-16 19:32:37.777 +05:30 [INF] Hosting environment: Development
+2022-07-16 19:32:37.777 +05:30 [INF] Content root path: D:\Repositories\WarehouseManger\src\Server
